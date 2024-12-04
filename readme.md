@@ -17,3 +17,5 @@ pip install -e .
 ## Usuage
 from ollama_assistant import create_ml_chat, complete_code
 
+default model is qwen2.5-coder and model can be changed.
+
