@@ -1,0 +1,20 @@
+```toml
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ollama_assistant"
+version = "0.1.0"
+description = "Jupyter Lab Extension for AI Assistance with Ollama"
+authors = [
+    { name = "Aung Myint Myat", email = "aungmyintmyatiris.v@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "jupyter-server-proxy",
+    "ollama"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
